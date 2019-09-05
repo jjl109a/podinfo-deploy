@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: metrics-demo-lb
+  name: metricsdemo-lb
   namespace: dev
 spec:
   type: LoadBalancer
@@ -12,5 +12,5 @@ spec:
       protocol: TCP
       name: http
   selector:
-    app: metrics-demo
+    app: metricsdemo
 
