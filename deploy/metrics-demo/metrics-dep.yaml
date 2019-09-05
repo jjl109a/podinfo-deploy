@@ -2,7 +2,7 @@
 kind: Deployment
 apiVersion: apps/v1
 metadata:
-  name: metrics-demo
+  name: metricsdemo
   namespace: dev
   annotations:
     flux.weave.works/tag.metrics-demo: glob:*
@@ -10,11 +10,11 @@ spec:
   replicas: 4
   selector:
     matchLabels:
-      app: metrics-demo
+      app: metricsdemo
   template:
     metadata:
       labels:
-        app: metrics-demo
+        app: metricsdemo
       annotations:
         prometheus.io/scrape: 'true'
     spec:
