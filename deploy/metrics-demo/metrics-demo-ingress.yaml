@@ -12,8 +12,8 @@ spec:
   - http:
       paths:
       - backend:
-          serviceName: metrics-demo
+          serviceName: metricsdemo
           servicePort: 3000
-        path: /metrics-demo
+        path: /metricsdemo
 status:
   loadBalancer: {}
