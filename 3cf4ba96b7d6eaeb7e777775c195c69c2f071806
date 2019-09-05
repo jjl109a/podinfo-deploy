@@ -1,0 +1,1 @@
+{"jobID":"2e882c8e-1f58-fcbd-438b-a59a2ff3c7cd","spec":{"type":"policy","cause":{"Message":"","User":"Jonathan Levy \u003cjjlevy@gmail.com\u003e"},"spec":{"dev:deployment/podinfo":{"add":{"automated":"true"},"remove":null}}},"result":null}
