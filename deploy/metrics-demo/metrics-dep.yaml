@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: metricsdemod
-        image: quay.io/brice/metrics-demo:latest
+        image: quay.io/brice/metrics-demo:v4-subscription-service
         ports:
         - containerPort: 3000
         readinessProbe:
